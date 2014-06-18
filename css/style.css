@@ -1,16 +1,13 @@
+html {
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-/*a, 
-a:link, 
-a:active, 
-a:visited {
-  text-decoration: none;
-  color: #58a0cc;
-}*/
 
 p {
   font-size: 14px;
@@ -20,6 +17,7 @@ p {
 
 h4 {
   font-size: 18px;
+  color: #555555;
 }
 
 .container {
@@ -80,12 +78,30 @@ header #contact .city {
 section.container {
   clear: both;
   padding: 0 20px;
-  border-bottom: 1px solid #ddd;
+  overflow: hidden;
 }
 
 section#connect-and-background {
-  background-color: #eee;
-  overflow: hidden;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #dddddd;
+}
+
+section#experience {
+  background-color: #fefefe;
+}
+
+section#experience h5 {
+  font-size: 17px;
+}
+
+section#experience h5 .job-title {
+  padding: 8px;
+  background-color: #fffce1;
+}
+
+section#experience h5 .company-name {
+  color: #888888;
+  font-size: 14px;
 }
 
 aside {
