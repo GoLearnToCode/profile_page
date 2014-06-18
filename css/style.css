@@ -90,33 +90,6 @@ section#connect-and-background {
   background-color: #eeeeee;
 }
 
-section#experience {
-  background-color: #fefefe;
-}
-
-section#experience h5 {
-  font-size: 17px;
-  width: 50%;
-  float: left;
-  clear: both;
-}
-
-section#experience h5 .job-title {
-  padding: 8px;
-  background-color: #fffce1;
-}
-
-section#experience h5 .company-name {
-  color: #888888;
-  font-size: 14px;
-}
-
-section#experience p {
-  margin-top: 30px;
-  width: 50%;
-  float: right;
-}
-
 aside {
   float: left;
   width: 220px;
@@ -150,4 +123,31 @@ aside li a.facebook {
 
 aside li a i {
   width: 22px;
+}
+
+section#experience {
+  background-color: #fefefe;
+}
+
+section#experience h5 {
+  font-size: 17px;
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+section#experience h5 .job-title {
+  padding: 8px;
+  background-color: #fffce1;
+}
+
+section#experience h5 .company-name {
+  color: #888888;
+  font-size: 14px;
+}
+
+section#experience p {
+  margin-top: 30px;
+  width: 50%;
+  float: right;
 }
